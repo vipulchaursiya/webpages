@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin:0px;
+        padding: 0px;
+   }
+     .first{
+        height: 170px;
+        width:100%;
+        /* background-color: cadetblue; */
+        padding: 0px;
+        margin:0px;
+        /* margin-left: 200px; */
+        align-content: center;
+
+    }
+     .life{
+        color:red;
+        font-size:140px;
+        height: 100px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          }
+    .social{
+        padding: 0px;
+        margin-top: 33px;
+        /* text-align: 10px left;  */
+        font-size: 25px;
+         }
+   
+    .donate{
+        float: right;
+        height: 30px;
+        width:90px;
+        background-color:red; 
+        margin-right: 100px;
+        margin-top: -85px;
+        text-align: center;
+        line-height: 30px;
+
+    }
+     .list{
+         margin-top: -30px;
+     }
+    a  {
+        text-decoration: none; 
+        color: white;
+    }
+     ul{
+        list-style: none; 
+        display: flex;
+        justify-content: end;         
+
+    }
+    ul li a:hover{
+        color: red; 
+        transform: scale(1.02,1);       
+    }
+   
+   ul li a {
+        color:black;
+        float:left;
+        width: 100px;
+        border-right: 2px solid black;
+        /* background-color: aqua; */
+        text-align:center;       
+    }
+     .noborder {
+        border: 0px;
+    }
+    
+    .backpic{
+        width: 100%;
+        background-image: url(backslumpic4cut.jpg);
+        height:500px;
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        
+    }
+    .opacity{
+        height: 70px;
+        width:500px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        font-style: italic;
+        opacity: 0.8;
+    }
+   
+     .text{
+         margin-left: 20px;
+         color: green;
+        font-size: 25px;       
+     }
+     .text:hover{
+        transform: scale(1.05,1.02);       
+
+     }
+     .pic2{
+       margin-left: 20px;
+       margin-top: 20px;        
+       }
+       .textpic{
+           float: left;
+       }
+       .maintext{
+         height: 280px;
+         width: 900px;
+         float:left;   
+         /* background-color: blanchedalmond;  */
+         margin-top: 30px;
+         margin-left: 20px;
+       }
+       .mtchild{
+        height: 280px;
+        width:400px; 
+        /* background-color: aqua; */
+        float:left;
+       }
+     .text2{
+         height: 83px;
+         width:370px;
+         /* background-color: black;         */
+         margin-left: 10px;
+         margin-top: 25px;
+         color:black;
+         font-size:17px;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+     }
+     .text3{
+        height: 83px;
+         width:370px;
+         /* background-color: black; */
+         margin-left: 10px;
+         margin-top: 25px; 
+         color:black;
+         font-size:17px;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;                         
+       } 
+       .text4{
+        height: 75px;
+         width:370px;
+         /* background-color: black; */
+         margin-left: 10px;
+         margin-top: 10px;
+         /* margin-top: 25px;  */
+         color:black;
+         font-size:17px;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;                         
+       }
+       .text5{
+        height: 75px;
+         width:370px;
+         /* background-color: black; */
+         margin-left: 10px;
+         margin-top: 25px; 
+         color:black;
+         font-size:17px;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;                         
+       }  
+       .link2{
+           background-color:green;
+           height: 30px;
+           width:90px;
+           margin-left: 7px;
+           line-height: 30px;
+           text-align: center;
+           margin-top: 10px;
+           margin-left:10px;
+       }
+       .link2:hover{
+        transform: scale(1.03,1.02);       
+       }
+       .link3:hover{
+        transform: scale(1.03,1.02); 
+       }
+      .mtchild2{
+           height: 280px;
+           width:380px;
+           /* background-color:aqua;  */
+           float:left;
+           /* margin-top: 20px; */
+           margin-left: 70px; 
+           color: green;
+           font-size: 30px;
+      } 
+  
+     .link3{
+           background-color: green;
+           height: 30px;
+           width:90px;
+           /* margin-left: 15px;  */
+           line-height: 30px;
+           text-align: center;
+           margin-top: 10px;
+           font-size: 15px;
+
+       }
+      .bottom{
+          width: 1330px;
+          height: 250px;
+          /* background-color:black; */
+          clear: both;
+          margin-top:300px;
+          margin-left:20px;
+      }
+       .b1{
+           height: 250px;
+           width: 300px;
+           /* background-color: aqua;  */
+           margin-left: 10px;
+           float:left;
+       }
+       .b1h1{
+           color: green;
+           height: 30px;
+           width: 150px;
+           /* background-color:blueviolet; */
+           font-size: 25px;
+       }
+       .b1h2{
+           height: 70px;
+           width: 300px;
+           /* background-color: brown; */
+           margin-top: 10px;
+       }
+       .b1h2a1b1{
+           height: 20px;
+           width: 50px;
+           background-color: green;
+           line-height: 20px;
+           text-align: center;
+       }
+       .b1h2a1b2{
+           height: 20px;
+           width: 50px;
+           background-color: green;
+           line-height: 20px;
+           text-align: center;
+           /* float: left; */
+       }
+       .float{
+          float: left; 
+       }
+       .b1h2a1b3{
+           height: 40px;
+           width: 220px;
+           /* background-color: darkmagenta; */
+           margin-left: 70px;
+           color: black;
+       }
+       .b2  {
+           float: left;
+           height:200px;
+           width: 970px;
+           /* background-color: yellow; */
+           margin-left: 40px;
+       }
+       .b2b1{
+           height:40px;
+           width: 970px;
+           margin-left: 10px;
+           /* background-color: indianred; */
+           font-size: 25px;    
+       }
+       .container{
+          height: 210px;
+          width:970px;
+          /* background-color: aqua; */
+          display: flex;
+          justify-content: space-around;
+       }
+     
+
+</style>
+<body>
+     <div class="first">
+    <div class="life">Life</div>
+    <div class="social">Social Organization</div>
+     <div class="donate"> <a href="#" >DONATE</a></div> 
+     <div class="list">
+     <ul>
+         <li><a href="">Home</a> </li>
+         <li><a href="">What We Do </a></li>
+         <li><a href="">Media</a></li>
+         <li><a href="">Get involved</a> </li>
+         <li ><a href="">Contacts</a></li>
+     </ul>     
+    </div>
+     </div>
+          <!-- <br></br> -->
+      <div class="backpic"> 
+        <div class="opacity">Our mission is to engage more people in the fight 
+            for better<br> life of needy people</br> </div>
+       
+      </div><br></br>
+       <div class="textpic">
+       <div class="text"><a href="#" style="color: green"> Meet Our Team </a></div>
+       <div class="pic2"><img src="grouppic.jpg" alt=" grouppic" height="250px"width="350px"></div>
+      </div>
+
+      <div class="maintext">
+          <div class="mtchild">
+            <div class="text2">Your little donation and help can change the future of our country or together we can change lives because no one useless in the world</div>
+            <div class="text3">We are india online resource centerfor required resource materials,information and all kind of knowledge and make difference</div> 
+            <div class="link2"><a href="#">Learn More</a></div>
+          </div> 
+          <div class="mtchild2" >
+             <a href="#" style="color:green">Our mission</a> 
+              <div class="text4">Any help or donation no matter how small we be deeply apreciated and much needed this is only for them .</div>
+              <div class="text5">Your donation helps fund the most urgent on the ground conversation efforts to protect and restore our natural world </div>
+               <div class="link3"><a href="#">Learn more</a></div>
+            </div>    
+            <!-- <img src="s" alt="">      -->
+     </div> 
+     <br></br>
+     <br></br>
+     
+     <div class="bottom">
+         <div class="b1">
+             <div class="b1h1"><a href="#" style="color: green"  >Latest News</a> </div>
+             <a href="">
+                 <div class="b1h2"> 
+                    <div class="float">
+                         <div class="b1h2a1b1" > 29 </div>
+                         <div class="b1h2a1b2" > Jan </div>
+                    </div>   
+                     <div class="b1h2a1b3" > 1500$ donate  being human  brand in mumbai compnay to life organization NGO </div>
+                 </div>
+             </a> 
+             <a href="">
+                    <div class="b1h2"> 
+                       <div class="float">
+                            <div class="b1h2a1b1" > 09 </div>
+                            <div class="b1h2a1b2" >Feb </div>
+                       </div>   
+                        <div class="b1h2a1b3" >just for mankind donate something for neddy people </div>
+                    </div>
+                </a> 
+             <a href="">
+                     <div class="b1h2"> 
+                         <div class="float">
+                            <div class="b1h2a1b1" > 15</div>
+                            <div class="b1h2a1b2" > Feb </div>
+                         </div>   
+                         <div class="b1h2a1b3" >They start donating only 1$ a day to raise donation money </div>
+                     </div>
+             </a>              
+         </div>
+        <div class="b2">
+            <div class="b2b1" > <a href="" style="color: green">Our Campaigns </a> </div>
+            <div class="container">
+                <div><a href="#"><img src="camp4.1.jpg" alt="camp1"></a> </div>
+                <div><a href="#"><img src="camp2.1.jpg" alt="camp2"></a></div>
+                <div><a href="#"><img src="camp3.1.jpg" alt="camp3"></a></div>
+            </div>
+        </div>
+     </div>
+</body>
+</html>
